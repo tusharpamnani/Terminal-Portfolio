@@ -5,8 +5,8 @@ const RES = tw.div` flex justify-evenly max-w-xl  items-baseline `;
 const A = tw.a`ml-2 hover:bg-warmblue hover:text-almostblack`;
 
 const data = [
-  { command: 'about', description: 'brief summary', content: '...' },
-  { command: 'funfact', description: 'fun fact about me', content: '...' },
+  { command: 'about', description: 'brief summary', content: 'since you are checking this website out, I guess you probably know about me. If not, let me introduce myself. I am Tushar Pamnani, a sophomore at Shri Ramdeobaba College of Engineering and Management, Nagpur. I\'m a full stack web and blockchain developer with a pinch of love for Communities and hackathons.' },
+  { command: 'funfact', description: 'fun fact about me', content: 'my screen time is more than som people\'s sleep time!' },
   { command: 'projects', description: "some projects i've posted", content: '' },
   { command: 'github', description: 'my github profile', content: 'https://github.com/tusharpamnani' },
   { command: 'linkedin', description: 'you can text me', content: 'https://www.linkedin.com/in/tushar-pamnani' },
@@ -104,7 +104,7 @@ export default function Result({ commandInput }) {
                   if (cm.command === 'repo') {
                     return (
                       <div key={i}>
-                        <p>i built this website from scratch using React and Typescript</p>
+                        <p>i built this website from scratch using React and JavaScript</p>
                         <p>
                           check out this project's repository : <A href={cm.content} target="_blank">{cm.content}</A>
                         </p>
