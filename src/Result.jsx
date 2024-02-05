@@ -22,7 +22,7 @@ const data = [
       tools: ['VScode', 'Linux', 'Git', 'Github', 'Gitlab'],
     },
   },
-  { command: 'repo', description: "check this project's repository", content: 'https://github.com/tusharpamnani' },
+  { command: 'repo', description: "check this project's repository", content: 'https://github.com/tusharpamnani/Terminal-Portfolio' },
   { command: 'clear', description: 'clear terminal', content: '' },
 ];
 
