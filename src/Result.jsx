@@ -73,16 +73,13 @@ export default function Result({ commandInput }) {
               return (
                 <div key={i}>
                   <p>
+                    weather app on terminal using rust: <A target="_blank" href="https://github.com/tusharpamnani/Weather-Forecast">Weather-Forecast</A>
+                  </p>
+                  <p>
                     the codebreakers club's website : <A target="_blank" href="https://thecodebreakers.netlify.app/">www.thecodebreakers.netlify.app</A>
                   </p>
                   <p>
                     smart contract for nft marketplace : <A target="_blank" href="https://github.com/tusharpamnani/NFT-MaretPlace-Contract/blob/main/contracts/NFTMarketplace.sol">NFTMarketplace.sol</A>
-                  </p>
-                  <p>
-                    newsletter frontend using fastn : <A target="_blank" href="https://tusharpamnani.github.io/fastn-newsletter/">tusharpamnani.github.io/fastn-newsletter/</A>
-                  </p>
-                  <p>
-                    Youtube clone using fastn : <A target="_blank" href="https://tusharpamnani.github.io/fastn-YT-clone/">tusharpamnani.github.io/fastn-YT-clone/</A>
                   </p>
                 </div>
               );
